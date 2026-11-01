@@ -1,0 +1,164 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f7f5ef;
+  color: #394b39;
+  font-family: Georgia, serif;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 760px;
+  margin: auto;
+  padding: 65px 0 35px;
+  text-align: center;
+}
+
+.brand {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #78866d;
+  margin-bottom: 22px;
+}
+
+h1 {
+  font-size: clamp(32px, 6vw, 48px);
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  color: #7e8275;
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+  font-size: 14px;
+  margin-bottom: 38px;
+}
+
+.reminder-card {
+  background: #e9ede3;
+  padding: 45px 30px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(50, 60, 40, 0.06);
+}
+
+.eyebrow {
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: #78866d;
+  margin-bottom: 35px;
+}
+
+.arabic {
+  font-size: clamp(28px, 6vw, 42px);
+  line-height: 2;
+  margin-bottom: 22px;
+  color: #344b37;
+}
+
+.translation {
+  font-size: 19px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.reference {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #78866d;
+}
+
+.divider {
+  height: 1px;
+  background: #cbd3c4;
+  margin: 30px 0;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 12px;
+}
+
+.reflection {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #66715e;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+button {
+  border: none;
+  border-radius: 30px;
+  padding: 15px 24px;
+  background: #66785e;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4e6148;
+}
+
+.secondary {
+  background: transparent;
+  color: #56674f;
+  border: 1px solid #aab5a2;
+}
+
+.secondary:hover {
+  background: #e9ede3;
+  color: #394b39;
+}
+
+.status {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #78866d;
+  margin-top: 15px;
+  min-height: 18px;
+}
+
+footer {
+  margin-top: 55px;
+  font-family: Arial, sans-serif;
+  color: #8b8c80;
+  font-size: 12px;
+  line-height: 2;
+}
+
+footer span {
+  font-size: 10px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding-top: 45px;
+  }
+
+  .reminder-card {
+    padding: 35px 20px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
